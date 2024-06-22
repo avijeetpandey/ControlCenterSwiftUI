@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		8AFD85C22C2765E300A4BD79 /* ControlCenterSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD85C12C2765E300A4BD79 /* ControlCenterSwiftUIApp.swift */; };
-		8AFD85C42C2765E300A4BD79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD85C32C2765E300A4BD79 /* ContentView.swift */; };
+		8AFD85C42C2765E300A4BD79 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD85C32C2765E300A4BD79 /* RootView.swift */; };
 		8AFD85C62C2765E400A4BD79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD85C52C2765E400A4BD79 /* Assets.xcassets */; };
 		8AFD85C92C2765E400A4BD79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD85C82C2765E400A4BD79 /* Preview Assets.xcassets */; };
+		8AFD85D22C2768CA00A4BD79 /* ControlCenterBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD85D12C2768CA00A4BD79 /* ControlCenterBlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8AFD85BE2C2765E300A4BD79 /* ControlCenterSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControlCenterSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFD85C12C2765E300A4BD79 /* ControlCenterSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCenterSwiftUIApp.swift; sourceTree = "<group>"; };
-		8AFD85C32C2765E300A4BD79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8AFD85C32C2765E300A4BD79 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		8AFD85C52C2765E400A4BD79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AFD85C82C2765E400A4BD79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8AFD85D12C2768CA00A4BD79 /* ControlCenterBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCenterBlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		8AFD85C02C2765E300A4BD79 /* ControlCenterSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				8AFD85C12C2765E300A4BD79 /* ControlCenterSwiftUIApp.swift */,
-				8AFD85C32C2765E300A4BD79 /* ContentView.swift */,
+				8AFD85CF2C27669A00A4BD79 /* Application */,
+				8AFD85D02C2766B200A4BD79 /* Views */,
+				8AFD85C32C2765E300A4BD79 /* RootView.swift */,
 				8AFD85C52C2765E400A4BD79 /* Assets.xcassets */,
 				8AFD85C72C2765E400A4BD79 /* Preview Content */,
 			);
@@ -65,6 +68,22 @@
 				8AFD85C82C2765E400A4BD79 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8AFD85CF2C27669A00A4BD79 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8AFD85C12C2765E300A4BD79 /* ControlCenterSwiftUIApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8AFD85D02C2766B200A4BD79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8AFD85D12C2768CA00A4BD79 /* ControlCenterBlurView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AFD85C42C2765E300A4BD79 /* ContentView.swift in Sources */,
+				8AFD85C42C2765E300A4BD79 /* RootView.swift in Sources */,
+				8AFD85D22C2768CA00A4BD79 /* ControlCenterBlurView.swift in Sources */,
 				8AFD85C22C2765E300A4BD79 /* ControlCenterSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
