@@ -11,6 +11,10 @@ struct RootView: View {
     var body: some View {
         ZStack {
             ControlCenterBlurView()
+            VStack {
+                NetworkStatsView()
+                Spacer()
+            }
         }
     }
 }

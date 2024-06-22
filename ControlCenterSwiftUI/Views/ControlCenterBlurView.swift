@@ -11,14 +11,14 @@ import SwiftUI
 struct ControlCenterBlurView: View {
     
     let gradientColors: [Color] = [.brown,
-                                  .orange,
-                                  .yellow,
-                                  .green,
-                                  .blue,
-                                  .purple,
-                                  .pink,
-                                  .brown,
-                                  .mint]
+                                   .red,
+                                   .cyan,
+                                   .green,
+                                   .blue,
+                                   .purple,
+                                   .pink,
+                                   .brown,
+                                   .mint]
     
     var body: some View {
         LinearGradient(colors: gradientColors,

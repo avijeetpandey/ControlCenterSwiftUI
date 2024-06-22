@@ -12,6 +12,7 @@
 		8AFD85C62C2765E400A4BD79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD85C52C2765E400A4BD79 /* Assets.xcassets */; };
 		8AFD85C92C2765E400A4BD79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD85C82C2765E400A4BD79 /* Preview Assets.xcassets */; };
 		8AFD85D22C2768CA00A4BD79 /* ControlCenterBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD85D12C2768CA00A4BD79 /* ControlCenterBlurView.swift */; };
+		8AFD85D42C27695600A4BD79 /* NetworkStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD85D32C27695600A4BD79 /* NetworkStatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		8AFD85C52C2765E400A4BD79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AFD85C82C2765E400A4BD79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8AFD85D12C2768CA00A4BD79 /* ControlCenterBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCenterBlurView.swift; sourceTree = "<group>"; };
+		8AFD85D32C27695600A4BD79 /* NetworkStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				8AFD85D12C2768CA00A4BD79 /* ControlCenterBlurView.swift */,
+				8AFD85D32C27695600A4BD79 /* NetworkStatsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AFD85C42C2765E300A4BD79 /* RootView.swift in Sources */,
+				8AFD85D42C27695600A4BD79 /* NetworkStatsView.swift in Sources */,
 				8AFD85D22C2768CA00A4BD79 /* ControlCenterBlurView.swift in Sources */,
 				8AFD85C22C2765E300A4BD79 /* ControlCenterSwiftUIApp.swift in Sources */,
 			);
