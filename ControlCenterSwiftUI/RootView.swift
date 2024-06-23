@@ -14,8 +14,13 @@ struct RootView: View {
             VStack {
                 NetworkStatsView()
                 Spacer()
-            }
-        }
+                VStack {
+                    HStack {
+                        MusicCenterView()
+                    }
+                }
+            }.padding()
+        }.preferredColorScheme(.dark)
     }
 }
 

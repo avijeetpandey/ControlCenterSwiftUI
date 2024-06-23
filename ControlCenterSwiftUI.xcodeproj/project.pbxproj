@@ -13,6 +13,8 @@
 		8AFD85C92C2765E400A4BD79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD85C82C2765E400A4BD79 /* Preview Assets.xcassets */; };
 		8AFD85D22C2768CA00A4BD79 /* ControlCenterBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD85D12C2768CA00A4BD79 /* ControlCenterBlurView.swift */; };
 		8AFD85D42C27695600A4BD79 /* NetworkStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD85D32C27695600A4BD79 /* NetworkStatsView.swift */; };
+		8AFD85D62C27F43D00A4BD79 /* MusicCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD85D52C27F43D00A4BD79 /* MusicCenterView.swift */; };
+		8AFD85D92C27FC9700A4BD79 /* IconConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD85D82C27FC9700A4BD79 /* IconConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		8AFD85C82C2765E400A4BD79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8AFD85D12C2768CA00A4BD79 /* ControlCenterBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCenterBlurView.swift; sourceTree = "<group>"; };
 		8AFD85D32C27695600A4BD79 /* NetworkStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatsView.swift; sourceTree = "<group>"; };
+		8AFD85D52C27F43D00A4BD79 /* MusicCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCenterView.swift; sourceTree = "<group>"; };
+		8AFD85D82C27FC9700A4BD79 /* IconConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 		8AFD85C02C2765E300A4BD79 /* ControlCenterSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				8AFD85D72C27FC8C00A4BD79 /* Constants */,
 				8AFD85CF2C27669A00A4BD79 /* Application */,
 				8AFD85D02C2766B200A4BD79 /* Views */,
 				8AFD85C32C2765E300A4BD79 /* RootView.swift */,
@@ -85,8 +90,17 @@
 			children = (
 				8AFD85D12C2768CA00A4BD79 /* ControlCenterBlurView.swift */,
 				8AFD85D32C27695600A4BD79 /* NetworkStatsView.swift */,
+				8AFD85D52C27F43D00A4BD79 /* MusicCenterView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		8AFD85D72C27FC8C00A4BD79 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8AFD85D82C27FC9700A4BD79 /* IconConstants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,7 +175,9 @@
 			files = (
 				8AFD85C42C2765E300A4BD79 /* RootView.swift in Sources */,
 				8AFD85D42C27695600A4BD79 /* NetworkStatsView.swift in Sources */,
+				8AFD85D92C27FC9700A4BD79 /* IconConstants.swift in Sources */,
 				8AFD85D22C2768CA00A4BD79 /* ControlCenterBlurView.swift in Sources */,
+				8AFD85D62C27F43D00A4BD79 /* MusicCenterView.swift in Sources */,
 				8AFD85C22C2765E300A4BD79 /* ControlCenterSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
