@@ -38,8 +38,8 @@ struct MusicCenterView: View {
                     Image(systemName: IconConstants.forward.rawValue)
                     Spacer()
                 }
-            }
-        }.frame(width: 150)
+            }.frame(width: 130, height: 115)
+        }
     }
 }
 

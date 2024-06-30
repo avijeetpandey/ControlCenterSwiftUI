@@ -13,4 +13,5 @@ enum IconConstants: String {
     case backward = "backward.fill"
     case pause = "pause.fill"
     case forward = "forward.fill"
+    case airplane = "airplane"
 }

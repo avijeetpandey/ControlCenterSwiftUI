@@ -15,6 +15,7 @@
 		8AFD85D42C27695600A4BD79 /* NetworkStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD85D32C27695600A4BD79 /* NetworkStatsView.swift */; };
 		8AFD85D62C27F43D00A4BD79 /* MusicCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD85D52C27F43D00A4BD79 /* MusicCenterView.swift */; };
 		8AFD85D92C27FC9700A4BD79 /* IconConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD85D82C27FC9700A4BD79 /* IconConstants.swift */; };
+		8AFD85DB2C27FFFF00A4BD79 /* MobileControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD85DA2C27FFFF00A4BD79 /* MobileControlsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		8AFD85D32C27695600A4BD79 /* NetworkStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatsView.swift; sourceTree = "<group>"; };
 		8AFD85D52C27F43D00A4BD79 /* MusicCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCenterView.swift; sourceTree = "<group>"; };
 		8AFD85D82C27FC9700A4BD79 /* IconConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconConstants.swift; sourceTree = "<group>"; };
+		8AFD85DA2C27FFFF00A4BD79 /* MobileControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileControlsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				8AFD85D12C2768CA00A4BD79 /* ControlCenterBlurView.swift */,
 				8AFD85D32C27695600A4BD79 /* NetworkStatsView.swift */,
 				8AFD85D52C27F43D00A4BD79 /* MusicCenterView.swift */,
+				8AFD85DA2C27FFFF00A4BD79 /* MobileControlsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				8AFD85D22C2768CA00A4BD79 /* ControlCenterBlurView.swift in Sources */,
 				8AFD85D62C27F43D00A4BD79 /* MusicCenterView.swift in Sources */,
 				8AFD85C22C2765E300A4BD79 /* ControlCenterSwiftUIApp.swift in Sources */,
+				8AFD85DB2C27FFFF00A4BD79 /* MobileControlsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
