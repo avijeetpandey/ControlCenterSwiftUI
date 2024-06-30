@@ -9,14 +9,14 @@ import SwiftUI
 
 struct RootView: View {
     var body: some View {
-        ZStack {
+        ZStack(alignment: .top) {
             ControlCenterBlurView()
             VStack {
                 NetworkStatsView()
-                Spacer()
                 VStack {
-                    HStack {
+                    HStack(spacing: 32) {
                         MusicCenterView()
+                        MobileControlsView()
                     }
                 }
             }.padding()
